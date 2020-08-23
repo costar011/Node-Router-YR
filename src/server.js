@@ -19,6 +19,7 @@ app.use(morgan("dev"));
 // app.use(express.static(path.join(__dirname, "/assets")));
 
 app.get("/", ROUTER);
+app.get("/about", ROUTER);
 
 // 설정 끝난 후 Server Start
 app.listen(PORT, () => {

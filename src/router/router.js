@@ -7,4 +7,9 @@ ROUTER.get("/", (req, res) => {
   res.render("index");
 });
 
+ROUTER.get("/about", (req, res) => {
+  console.log("Request Webpage Loding");
+  res.render("about");
+});
+
 export default ROUTER;
