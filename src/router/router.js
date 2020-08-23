@@ -3,13 +3,13 @@ import express, { Router } from "express";
 const ROUTER = express.Router();
 
 ROUTER.get("/", (req, res) => {
-  console.log("Request Webpage Loding");
   res.render("index");
+  console.log("Request Webpage Loding");
 });
 
 ROUTER.get("/about", (req, res) => {
-  console.log("Request Webpage Loding");
   res.render("about");
+  console.log("Request Webpage Loding");
 });
 
 export default ROUTER;
