@@ -16,7 +16,7 @@ app.set("view engine", "pug");
 app.use(morgan("dev"));
 
 // app.js 에게 CSS나 js는 /assets에 있음
-// app.use(express.static(path.join(__dirname, "/assets")));
+app.use(express.static(path.join(__dirname, "/assets")));
 
 app.get("/", ROUTER);
 app.get("/about", ROUTER);

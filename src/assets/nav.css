@@ -1,0 +1,30 @@
+.menus {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 2px 3px 3px #ccc;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.menus .menus__menu {
+  list-style: none;
+}
+
+.menus .menus__menu a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  color: #777;
+  font-weight: 600;
+  transition: 0.5s;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.menus .menus__menu a:hover {
+  color: #1e90ff;
+}
