@@ -3,6 +3,7 @@ extends layouts/main.pug
 block content
 
     section.wrapper
+       
         .wrapper__col1
 
         .wrapper__col2
@@ -11,15 +12,30 @@ block content
             .wrapper__col2__main
                 .wrapper__col2__main__top.mt
                     .wrapper__col2__main__top__img
-                    .wrapper__col2__main__top__txt DUMMY TXT DATA  
+                    .wrapper__col2__main__top__txt.mainDesc
+                        h3.mainDesc__title
+                            span.mainDesc__title__number 01
+                            span.mainDesc__title__txt txt1
+                        p.mainDesc__content test1
+                        p.mainDesc__content test2
 
                 .wrapper__col2__main__bottom.mb
-                    .wrapper__col2__main__bottom__txt DUMMY TXT DATA  
+                
+                    .wrapper__col2__main__bottom__txt.mainDesc
+                        h3.mainDesc__title
+                            span.mainDesc__title__number 02
+                            span.mainDesc__title__txt txt2
+                        p.mainDesc__content test3
+                        p.mainDesc__content test4 
                     .wrapper__col2__main__bottom__img
 
             .wrapper__col2__right 
 
         .wrapper__col3
-            .wrapper__col3__left col3__left2
-            .wrapper__col3__main col3__main2
-            .wrapper__col3__right col3__left2
+            .wrapper__col3__left 
+            .wrapper__col3__main.cm3
+                .wrapper__col3__main__box1
+                .wrapper__col3__main__box2
+                .wrapper__col3__main__box3
+                
+            .wrapper__col3__right 
