@@ -139,6 +139,23 @@
   justify-content: center;
 }
 
-.mainDesc .mainDesc__title {
-  border-bottom: 30px;
+.mainDesc .mainDesc__title .mainDesc__title__number {
+  font-size: 50px;
+  color: #888;
+  font-weight: 600;
+  margin-right: 30px;
+  border-bottom: 2px solid #888;
+}
+
+.mainDesc .mainDesc__title .mainDesc__title__txt {
+  font-size: 55px;
+  color: #333;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.mainDesc .mainDesc__content {
+  font-size: 35px;
+  color: #777;
+  margin-bottom: 10px;
 }
